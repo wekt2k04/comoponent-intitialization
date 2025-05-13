@@ -1,15 +1,11 @@
 import './App.css';
-import Card from './Card';
-import Btn from './Btn';
+import './ModeToogler.css';
+import ModeToogler from './ModeToogler'
 
-const randNum = () => Math.floor(Math.random() * 100) + 1
 function App() {
   return (
     <>
-    <Card num={randNum()}/>
-    <Card num={randNum()}/>
-    <Card num={randNum()}/>
-    <Btn />
+    <ModeToogler />
     </>
   );
 }
