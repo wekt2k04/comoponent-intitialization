@@ -1,10 +1,11 @@
-import Dog from './Dog'
+import Child from './Child'
 
 function App() {
-  
+  const date = new Date()
+
   return (
     <>
-    <Dog />
+    <Child message={date.toLocaleTimeString()} />
     </>
   );
 }
