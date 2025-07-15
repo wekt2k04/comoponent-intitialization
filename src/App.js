@@ -1,10 +1,10 @@
-import Btn from './Btn';
+import TextInputWithFocusButton from './TextInputWithFocusButton';
 import './App.css'; 
 
 
 function App() {
   return (
-    <Btn />
+    <TextInputWithFocusButton />
   );
 }
 
