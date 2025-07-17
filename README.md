@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+To initalize one, we use the command :
+
+### `npx create-react-app app-name-with-no-capital-letter`
+
 ## Available Scripts
 
 In the project directory, you can run:
